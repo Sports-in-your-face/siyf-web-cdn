@@ -28,6 +28,12 @@
     "BRI": "BHA",
     "WH": "WHU"
   },
+  "mls": {
+    "ATL": "ATL",
+    "MIA": "MIA",
+    "LAFC": "LAFC",
+    "LAG": "LAG"
+  },
   "mlb": {
     "WSH": "WAS",
     "CWS": "CHW",
