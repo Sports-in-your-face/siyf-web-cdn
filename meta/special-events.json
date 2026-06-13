@@ -124,7 +124,28 @@
         "showLeadDays": 5,
         "priority": 90
       },
-      "logo": "media/finals-game.png",
+      "logo": "media/mlb-commisioner-trophy.png",
+      "enabled": true
+    },
+    {
+      "id": "mls_cup_2026",
+      "kind": "mls_cup",
+      "sport": "SOCCER",
+      "label": "MLS Cup",
+      "keywords": ["mls cup", "mls cup final"],
+      "schedule": {
+        "type": "single_peak",
+        "peakDate": "2026-12-06",
+        "warmupDays": 7,
+        "cooldownDays": 1
+      },
+      "nav": {
+        "slug": "mls-cup",
+        "shortLabel": "MLS Cup",
+        "showLeadDays": 5,
+        "priority": 86
+      },
+      "logo": "media/mlscup.png",
       "enabled": true
     },
     {

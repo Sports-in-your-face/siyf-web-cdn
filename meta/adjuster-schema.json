@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "registryVersion": 1,
+  "governor": {
+    "hourBudget": 3600,
+    "ageOutMs": 240000
+  },
+  "providers": ["espn", "actionNetwork"],
+  "dlq": {
+    "maxEntries": 1000,
+    "alertThrottleMs": 300000
+  },
+  "chrono": {
+    "pauseEnterPayloads": 2,
+    "pollIntervals": {
+      "PRESENT_LIVE": 12000,
+      "PRESENT_PAUSED": 180000,
+      "PRESENT_BREAK": 60000
+    }
+  }
+}

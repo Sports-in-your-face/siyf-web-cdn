@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "global": [
+    "rain delay",
+    "rain delayed",
+    "delay",
+    "delayed",
+    "suspended",
+    "weather",
+    "lightning",
+    "tarp"
+  ],
+  "sports": {
+    "BASEBALL": ["rain delay", "tarp", "lightning delay"],
+    "FOOTBALL": ["weather delay", "lightning delay"],
+    "BASKETBALL": ["delay of game"]
+  }
+}
