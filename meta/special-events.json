@@ -20,7 +20,7 @@
         "priority": 100,
         "accent": "#e16343"
       },
-      "logo": null,
+      "logo": "media/superbowl.png",
       "enabled": true,
       "notes": "Media week through game day + day after."
     },
@@ -83,7 +83,7 @@
         "showLeadDays": 5,
         "priority": 94
       },
-      "logo": "media/finals-game.png",
+      "logo": "media/stanleycup.png",
       "enabled": true
     },
     {
@@ -103,7 +103,7 @@
         "showLeadDays": 14,
         "priority": 98
       },
-      "logo": null,
+      "logo": "media/worldcup.png",
       "enabled": true
     },
     {
