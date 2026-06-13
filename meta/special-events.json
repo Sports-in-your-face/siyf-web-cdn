@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "events": [
     {
       "id": "super_bowl_lx",
@@ -7,71 +7,165 @@
       "sport": "FOOTBALL",
       "label": "Super Bowl LX",
       "keywords": ["super bowl", "super bowl lx", "super bowl 60"],
-      "activeFrom": "2026-01-20",
-      "activeUntil": "2026-02-25",
+      "schedule": {
+        "type": "single_peak",
+        "peakDate": "2026-02-08",
+        "warmupDays": 14,
+        "cooldownDays": 1
+      },
+      "nav": {
+        "slug": "super-bowl",
+        "shortLabel": "Super Bowl",
+        "showLeadDays": 10,
+        "priority": 100,
+        "accent": "#e16343"
+      },
       "logo": null,
-      "enabled": false,
-      "notes": "Set enabled=true and logo once the event is official."
+      "enabled": true,
+      "notes": "Media week through game day + day after."
+    },
+    {
+      "id": "nba_all_star_2026",
+      "kind": "all_star",
+      "sport": "BASKETBALL",
+      "label": "NBA All-Star Weekend",
+      "keywords": ["all-star", "all star", "nba all-star", "rising stars", "skills challenge", "3-point contest", "slam dunk"],
+      "schedule": {
+        "type": "weekend",
+        "startDate": "2026-02-13",
+        "endDate": "2026-02-16"
+      },
+      "nav": {
+        "slug": "nba-all-star",
+        "shortLabel": "All-Star",
+        "showLeadDays": 4,
+        "priority": 85
+      },
+      "logo": "media/all-star-game.png",
+      "enabled": true
     },
     {
       "id": "nba_finals_2026",
       "kind": "nba_finals",
       "sport": "BASKETBALL",
       "label": "NBA Finals",
-      "keywords": ["nba finals"],
-      "activeFrom": "2026-05-01",
-      "activeUntil": "2026-06-30",
+      "keywords": ["nba finals", "finals game"],
+      "schedule": {
+        "type": "series",
+        "startDate": "2026-06-04",
+        "endDate": "2026-06-22",
+        "cooldownDays": 1
+      },
+      "nav": {
+        "slug": "nba-finals",
+        "shortLabel": "NBA Finals",
+        "showLeadDays": 5,
+        "priority": 95
+      },
       "logo": "media/finals-game.png",
-      "enabled": true,
-      "notes": "Enabled for 2026 NBA Finals window."
+      "enabled": true
     },
     {
-      "id": "nba_all_star_2026",
-      "kind": "all_star",
-      "sport": "BASKETBALL",
-      "label": "NBA All-Star",
-      "keywords": ["all-star", "all star", "nba all-star"],
-      "activeFrom": "2026-01-01",
-      "activeUntil": "2026-12-31",
-      "logo": "media/all-star-game.png",
-      "enabled": true,
-      "notes": "All-Star Game logo for curated marquee cards."
+      "id": "stanley_cup_2026",
+      "kind": "stanley_cup",
+      "sport": "HOCKEY",
+      "label": "Stanley Cup Final",
+      "keywords": ["stanley cup", "stanley cup final", "cup final"],
+      "schedule": {
+        "type": "series",
+        "startDate": "2026-06-03",
+        "endDate": "2026-06-20",
+        "cooldownDays": 1
+      },
+      "nav": {
+        "slug": "stanley-cup",
+        "shortLabel": "Stanley Cup",
+        "showLeadDays": 5,
+        "priority": 94
+      },
+      "logo": "media/finals-game.png",
+      "enabled": true
     },
     {
       "id": "world_cup_2026",
       "kind": "world_cup",
       "sport": "SOCCER",
       "label": "FIFA World Cup",
-      "keywords": ["world cup", "fifa world cup"],
-      "activeFrom": "2026-06-01",
-      "activeUntil": "2026-07-20",
+      "keywords": ["world cup", "fifa world cup", "world cup group", "world cup knockout"],
+      "schedule": {
+        "type": "tournament",
+        "startDate": "2026-06-11",
+        "endDate": "2026-07-19"
+      },
+      "nav": {
+        "slug": "world-cup",
+        "shortLabel": "World Cup",
+        "showLeadDays": 14,
+        "priority": 98
+      },
       "logo": null,
-      "enabled": false,
-      "notes": "Enable for World Cup window when ready to ship."
+      "enabled": true
     },
     {
-      "id": "world_series_2025",
+      "id": "world_series_2026",
       "kind": "world_series",
       "sport": "BASEBALL",
       "label": "World Series",
       "keywords": ["world series"],
-      "activeFrom": "2025-10-01",
-      "activeUntil": "2026-11-15",
+      "schedule": {
+        "type": "series",
+        "startDate": "2026-10-24",
+        "endDate": "2026-11-05",
+        "cooldownDays": 1
+      },
+      "nav": {
+        "slug": "world-series",
+        "shortLabel": "World Series",
+        "showLeadDays": 5,
+        "priority": 90
+      },
       "logo": "media/finals-game.png",
-      "enabled": true,
-      "notes": "World Series marquee window."
+      "enabled": true
     },
     {
       "id": "mlb_all_star_2026",
       "kind": "all_star",
       "sport": "BASEBALL",
-      "label": "MLB All-Star",
-      "keywords": ["all-star", "all star", "mlb all-star"],
-      "activeFrom": "2026-01-01",
-      "activeUntil": "2026-12-31",
+      "label": "MLB All-Star Game",
+      "keywords": ["all-star", "all star", "mlb all-star", "home run derby"],
+      "schedule": {
+        "type": "weekend",
+        "startDate": "2026-07-13",
+        "endDate": "2026-07-15"
+      },
+      "nav": {
+        "slug": "mlb-all-star",
+        "shortLabel": "MLB All-Star",
+        "showLeadDays": 4,
+        "priority": 80
+      },
       "logo": "media/all-star-game.png",
-      "enabled": true,
-      "notes": "All-Star Game logo for MLB marquee cards."
+      "enabled": true
+    },
+    {
+      "id": "euro_2028",
+      "kind": "euro",
+      "sport": "SOCCER",
+      "label": "UEFA Euro 2028",
+      "keywords": ["uefa euro", "euro 2028"],
+      "schedule": {
+        "type": "tournament",
+        "startDate": "2028-06-14",
+        "endDate": "2028-07-14"
+      },
+      "nav": {
+        "slug": "euro-2028",
+        "shortLabel": "Euro 2028",
+        "showLeadDays": 14,
+        "priority": 88
+      },
+      "enabled": false,
+      "notes": "Enable when tournament window approaches."
     }
   ]
 }
