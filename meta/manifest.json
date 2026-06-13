@@ -1,0 +1,49 @@
+{
+  "version": 2,
+  "syncedAt": "2026-06-09T16:13:00.753Z",
+  "sports": [
+    {
+      "sport": "epl",
+      "teams": 20
+    },
+    {
+      "sport": "mlb",
+      "teams": 30
+    },
+    {
+      "sport": "nba",
+      "teams": 30
+    },
+    {
+      "sport": "nfl",
+      "teams": 32
+    },
+    {
+      "sport": "nhl",
+      "teams": 32
+    }
+  ],
+  "flags": {
+    "logos": true,
+    "rosters": false,
+    "bbref": false
+  },
+  "paths": {
+    "teams": [
+      "teams/epl.json",
+      "teams/mlb.json",
+      "teams/nba.json",
+      "teams/nfl.json",
+      "teams/nhl.json"
+    ],
+    "logos": [
+      "media/logos/epl/",
+      "media/logos/mlb/",
+      "media/logos/nba/",
+      "media/logos/nfl/",
+      "media/logos/nhl/"
+    ],
+    "players": [],
+    "bbref": null
+  }
+}
