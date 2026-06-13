@@ -17,7 +17,7 @@ meta/          manifest, aliases, special-events, soccer-leagues
 teams/         nba.json, nfl.json, epl.json, mlb.json, nhl.json
 media/logos/   per-sport team PNGs
 favicon/       site favicon
-stats/         optional cached player history JSON
+flags/         country flag SVGs (ISO 3166-1 alpha-2)
 ```
 
 ## Publish
@@ -33,3 +33,5 @@ jsDelivr picks up changes from `main` automatically. Purge a path if needed:
 ```
 https://purge.jsdelivr.net/gh/Sports-in-your-face/siyf-web-cdn@main/{path}
 ```
+
+After editing `meta/field-aliases.json` or `meta/manifest.json`, bump `fieldAliasesVersion` in manifest and purge both files. See `.development/runbooks/schema-drift-hotfix.md` in the web repo.
