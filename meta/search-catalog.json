@@ -27,7 +27,7 @@
     { "id": "ucl", "name": "Champions League", "sport": "SOCCER", "subtitle": "UCL", "aliases": ["ucl", "champions league", "uefa champions league", "uefa champions"] },
     { "id": "europa", "name": "Europa League", "sport": "SOCCER", "subtitle": "Europa League", "aliases": ["europa league", "uefa europa", "uel"] },
     { "id": "liga-mx", "name": "Liga MX", "sport": "SOCCER", "subtitle": "Liga MX", "aliases": ["liga mx", "ligamx", "mexican league"] },
-    { "id": "world-cup", "name": "World Cup", "sport": "SOCCER", "subtitle": "World Cup", "aliases": ["world cup", "fifa world cup"] },
+    { "id": "world-cup", "name": "World Cup", "sport": "SOCCER", "link": "/events/world-cup", "subtitle": "World Cup", "aliases": ["world cup", "fifa world cup"] },
     { "id": "calendar", "name": "Calendar", "sport": "BASKETBALL", "link": "/calendar", "subtitle": "All sports schedule", "aliases": ["calendar", "schedule", "scores today"] },
     { "id": "odds", "name": "Odds", "sport": "BASKETBALL", "link": "/odds", "subtitle": "Betting odds hub", "aliases": ["odds", "betting odds", "lines"] }
   ],

@@ -101,7 +101,14 @@
         "slug": "world-cup",
         "shortLabel": "World Cup",
         "showLeadDays": 14,
-        "priority": 98
+        "priority": 98,
+        "requiresGames": false
+      },
+      "feeds": {
+        "espnLeague": "fifa.world",
+        "espnStandingsPath": "/apis/v2/sports/soccer/fifa.world/standings",
+        "apiSportsLeagueId": 1,
+        "apiSportsSeason": 2026
       },
       "logo": "media/worldcup.png",
       "enabled": true
